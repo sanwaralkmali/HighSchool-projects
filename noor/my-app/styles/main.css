@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  width: 100%;
+  background-color: #ccc;
+  border: 2px solid #000;
+}
+
+.navbar-icons {
+  width: 40px;
+  margin: 0px 5px;
+}
+
+
+.navbar-icons:hover {
+  cursor: pointer;
+}
+
+.navbar-leftside{
+  margin: 0px;
+  padding: 20px;
+  width: 20%;
+}
+
+.navbar-middle{
+  width: 60%;
+  
+}
+
+.logo{
+	color: mix(rgb(165, 132, 132), #740027, 100%);
+	font-size: 3.4rem;  
+	font-weight: 900;
+  text-shadow: 
+  -0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+  0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+  0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+  0.015em 0.015em mix(#fff, #e91e63, 64%), 
+  0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+  0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+  0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+  0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+}
+
+.navbar-rightside{
+  width: 20%;
+  margin: 0px;
+  padding: 20px;
+}
+.navbar-rightside > img{
+  margin-left: 50px;
+}
+
+
+.categories{
+  display: flex;
+  width: 100%;
+  background-color: rgba(189, 179, 179, 0.932);
+}
+
+.categories > .category{
+  width: 20%;
+  border: 2px solid #000;
+}
+
+.categories > .category:hover{
+  background-color: rgb(179, 240, 179);
+  cursor: pointer;
+}
+
+.categories > .category > * {
+  padding: 30px;
+	font-size: 1.4rem;  
+	font-weight: 500;
+
+}
+
+.content {
+  width: 100%;
+  background-color: burlywood;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: rgba(226, 219, 219, 0.521);
+  width: 25%;
+  padding: 5%;
+  float: left;
+
+}
+
+.item-container > span{
+  font-size: 1.4rem;
+  font-weight: 200;
+  padding: 20px;
+  margin: auto;
+}
+.item-background{
+  width: fit-content;
+  background-color: #eb8d4e;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #ccc;
+  margin: auto;
+}
+
+.item-background img{
+  width: 75px;
+
+}
+
+.item-background img:hover {
+  cursor: pointer;
+}
+
+.footer{
+  width: 100%;
+  padding: 50px;
+  float: left;
+  background-color: rgba(240, 218, 218, 0.808);
+  border: 2px solid #000;
+}
+
+.footer > .footer-leftside{
+  width: 80%;
+  float: left;
+}
+
+.footer > .footer-leftside > .information{
+  width:fit-content;
+  background-color: #5a81d4;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #ccc;
+
+}
+
+.footer > .footer-rightside > .navbar-icons{
+  margin-left: 20px;
+}
