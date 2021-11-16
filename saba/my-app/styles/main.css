@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Rampart+One&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Rampart One', cursive;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgba(244, 249, 253, 0.658);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: fit-content;
+  margin: 25px;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+}
+
+.last-drawings {
+  width: 100%;
+  background-color: rgba(241, 239, 113, 0.527);
+  padding-bottom: 30px;
+}
+
+.last-drawings-text {
+  font-size: 1.2rem;
+  padding: 25px;
+  width: fit-content;
+}
+
+.last-drawings-title>hr {
+  margin: 10px auto;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+
+.drawings {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.small-pic {
+  width: 200px;
+  margin: auto;
+}
+
+.picture-description {
+  width: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.picture-description>h3 {
+
+  margin: auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: 'Architects Daughter', cursive;
+
+}
+
+.picture-description>p {
+  margin: auto;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(201, 13, 144);
+}
+
+.drawing-styles {
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: rgba(194, 154, 103, 0.753);
+
+}
+
+.drawingStyles {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+
+.drawing-style {
+  padding: 10px;
+  margin: 50px;
+}
+
+.drawing-style>.drawing-style-img {
+  width: 30%;
+  float: left;
+
+}
+
+.drawing-style>.drawing-style-description>p {
+  width: 70%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.artists {
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: rgba(136, 211, 230, 0.753);
+}
+
+.artists>div>span>h2 {
+  font-size: 3.5rem;
+}
+
+.artists > .last-drawings-text {
+  width: 90%;
+}
+
+.artist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px;
+}
+
+.about-artist>p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: unset;
+  line-height: 1.8;
+
+}
+.contact{
+  width: fit-content;
+  margin: auto;
+  margin-top: 35px;
+  border: 0px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(238, 174, 137);
+  cursor: pointer;
+
+}
+.contact:hover{
+  background-color: rgba(140, 238, 116, 0.822);
+}
