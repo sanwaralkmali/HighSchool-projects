@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Rampart+One&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Rampart One', cursive;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgba(210, 219, 219, 0.842);
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  background-color: rgba(116, 135, 245, 0.726);
+  display: flex;
+}
+.navbar-leftside{
+  margin: 10px;
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar-rightside{
+  margin: 25px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo{
+  font-size: 4rem;
+  font-weight: 800;
+}
+.search {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(39, 30, 30);
+  border-radius: 15px;
+}
+.search > input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 15px 0px 0px 15px;
+
+}
+
+.search > input:focus {
+  outline: none;
+}
+.search > button {
+  background: white;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+
+}
+.search > button > img {
+  padding: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.search > button:hover {
+  background-color: rgb(106, 223, 151);
+}
+
+.pic-icons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+}
+
+.pic-icons > img {
+  margin: auto;
+  width: 125px;
+  cursor: pointer;
+}
+
+.about-mercury{
+  margin-top: 50px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.219);
+}
+
+.about-mercury-p{
+  width: 85%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-top: 30px;
+
+}
+.about-mercury-p > .pic-icons{
+  margin: auto;
+  margin-left: 50px;
+}
+.rockets{
+  margin-top: 120px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.rockets > img {
+  margin: auto;
+  width: 125px;
+  cursor: pointer;
+}
+
+.space{
+  background-color: red;
+  padding: 25px;
+}
+
+.footer{
+  background-color: rgba(116, 135, 245, 0.726);
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+}
+
+.footer-text-container{
+  background-color: rgba(0, 0, 0, 0.767);
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.footer-text-container > .footer-text{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.footer-text:hover{
+  color: rgba(150, 238, 123, 0.877);
+}
