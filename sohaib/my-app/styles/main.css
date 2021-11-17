@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #cc845ade;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  background-color: #887c75a8;
+
+}
+
+.navbar-leftside {
+  width: fit-content;
+  padding: 16px;
+  margin-left: 50px;
+
+}
+
+.logo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+
+
+}
+
+.navbar-rightside {
+  width: 70%;
+}
+
+
+
+.navbar-rightside>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: fit-content;
+  margin: auto;
+}
+
+.navbar-rightside>ul>li {
+  float: left;
+}
+
+.navbar-rightside>ul>li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navbar-rightside>ul>li>a:hover {
+  background-color: #111111;
+}
+
+.intro-background {
+  display: flex;
+  border: 2px solid #000000de;
+}
+
+.intro-left {
+  width: 40%;
+  display: flex;
+
+}
+
+.intro-left>span {
+  padding: 12px;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 4.5rem;
+  text-shadow: 3px 3px 3px #000000de;
+  color: rgb(212, 216, 157);
+}
+
+.intro-right {
+  background-image: url("./assets/tv-banshee-breaking-bad-vikings-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.movies-list>li {
+  padding: 10px;
+  width: fit-content;
+  text-decoration: underline;
+}
+.movies-list>li:hover {
+  color: #14268a;
+  cursor: pointer;
+}
+.movie{
+  width: fit-content;
+  display: flex;
+  border: 2px dotted #000000de;
+  margin: auto;
+  border-radius: 15px;
+}
+.movie-description {
+  width: 450px;
+  margin: 25px;
+}
+.movie-poster{
+  width: fit-content;
+  display: flex;
+
+}
+.movie-poster img{
+  width: 250px;
+  border-radius: 0px 15px 15px 0px;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.movie-title {
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.description{
+  margin-top: 25px;
+  line-height: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  background-color: #755050b2;
+}
+
+.footer > span {
+  font-size: 1.5rem;
+  width: 30%;
+  display: flex;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 2px 2px #000000de;
+  letter-spacing: 2px;
+  cursor: pointer;
+
+}
+
+.social {
+  margin-left: 55px;
+}
+.social > img {
+  width: 30px;
+  margin: 5px;
+}
