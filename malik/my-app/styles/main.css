@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=M+PLUS+Rounded+1c&family=Rampart+One&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Rampart One', cursive;
+  font-family: 'Architects Daughter', cursive;
+  background-color: #f5f5f5;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-background {
+  display: flex;
+}
+
+.intro-leftside {
+  color: aliceblue;
+  width: 40%;
+  background-color: #000000ea;
+}
+
+.intro-leftside>* {
+  padding: 10px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+
+}
+
+.intro-leftside-content>h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+
+}
+
+.intro-leftside-content>button {
+  padding: 15px 50px 15px 50px;
+  background: none;
+  color: aliceblue;
+}
+
+.intro-leftside-content>button:hover {
+  background: aliceblue;
+  color: #020000;
+  cursor: pointer;
+}
+
+.intro-leftside-content>p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 3px;
+}
+
+.intro-rightside {
+  width: 60%;
+  background-image: url("./assets/pics/phone-photographer.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.about-me {
+  width: 90%;
+  margin: 40px;
+}
+
+.about-me>h1 {
+
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+}
+
+.about-me>p {
+
+  font-size: 1.5rem;
+
+}
+
+.what-i-do {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.what-leftside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.what-leftside>img {
+  width: 60%;
+  object-fit: cover;
+  margin: auto;
+
+}
+
+.what-rightside {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.what-rightside>h1 {
+  font-size: 4.5rem;
+}
+
+.what-rightside>ul {
+  width: fit-content;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  text-align: start;
+  font-size: 2rem;
+}
+
+.what-rightside>ul>li {
+  margin-top: 25px;
+}
+
+.some-pics {
+  margin: 25px;
+  border: 2px solid #000000;
+}
+.some-pics > h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 35px;
+}
+.some-pics-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.some-pics-item {
+  min-width: 350px;
+  height: 50vh;
+  flex-grow: 1;
+
+}
+
+.some-pics-item:last-child {
+  flex-grow: 10;
+}
+
+.some-pics-item>img {
+  object-fit: cover;
+  vertical-align: top;
+  max-height: 100%;
+  min-width: 100%;
+
+}
+
+.quote{
+  background-image: url("./assets/pics/quote.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.quote > p {
+  font-size: 2rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  color: rgb(253, 244, 213);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.contactme{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px; 
+  border: 2px solid #000000;
+  padding: 50px;
+}
+
+.contactme-leftside > h2 {
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.contactme-leftside > .small-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+
+}
+
+.contactme-leftside > .large-text {
+  font-size: 1.4rem;
+  font-weight: 200;
+  cursor: pointer;
+
+}
+
+.contactme-leftside > span {
+  display: block;
+}
+
+.contactme-rightside{
+  display: flex;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.social > span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 2px;
+  cursor: pointer;
+}
