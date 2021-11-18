@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=M+PLUS+Rounded+1c&family=Rampart+One&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Rampart One', cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+  min-height: 100vh;
+  background-color: beige;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.language {
+  display: inline;
+  float: right;
+  margin: 20px;
+}
+
+.language>span {
+  margin: 0 5px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.navbar-leftside {
+  width: 20%;
+  margin: 25px;
+
+}
+
+.navbar-leftside>span {
+  font-family: 'Rampart One', cursive;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-rightside {
+  display: flex;
+  width: 80%;
+  margin: 25px;
+
+}
+
+.icon {
+  width: 45px;
+}
+
+.navbar-item {
+  margin: auto;
+}
+
+.navbar-item>a {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+.active>a {
+  color: darkcyan;
+  padding-bottom: 20px;
+  border-top: 2px solid darkcyan;
+  border-left: 2px solid darkcyan;
+  border-right: 2px solid darkcyan;
+  padding: 5px;
+  border-radius: 3px;
+  padding-bottom: 25px;
+}
+
+.navbar-item>a:hover {
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+.quote > span{
+  padding: 10px;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: underline;
+}
+
+.books-category , .novels-genre{
+  width: 60%;
+  margin: auto;
+}
+
+.books-category > *  , .novels-genre > *{
+  margin: 15px;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+.books-category > select  , .novels-genre > select{
+ width: 120px;
+}
+
+.category > span{
+  font-size: 2rem;
+  margin-left: 75px;
+  text-decoration: underline;
+}
+
+.books-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.book-item{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  width: fit-content;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+
+}
+
+.book-item > img{
+  width: 250px;
+  cursor: pointer;
+}
+
+.rating > *{
+  float: right;
+  margin: 3px;
+}
+.rating-icon {
+  width: 20px;
+}
+.book-author {
+  padding: 10px;
+  margin: auto;
+}
+
+.writer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.writer-img  {
+  width: fit-content;
+  text-align: center;
+  margin: auto 0px; 
+}
+.writer-img > img{
+  width: 240px;
+  cursor: pointer;
+
+}
+
+
+.writer-info {
+  margin: auto 0px;
+  height: 100%;
+
+}
+.writer-info > table {
+  border-collapse: collapse;
+  border: 2px solid rgb(65, 2, 59);
+  margin-left: 50px;
+  min-width: 600px;
+
+}
+
+th {
+  width: fit-content;
+  border: 2px solid rgb(65, 2, 59);
+  padding: 20px;
+  text-align: left;
+}
