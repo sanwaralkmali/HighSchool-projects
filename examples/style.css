@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+div {
+}
+
+span {
+    background-color: #0F9;
+}
+
+p {
+    background-color: #00F;
+}
+
+.green {
+    background-color: #0F0;
+    display: flex;
+}
+
+.yellow {
+    background-color: #FF0;
+    width: 100%;
+}
+
+.purple {
+    background-color: #F0F;
+    width: 100%;
+
+}
+
+.navbar {
+    background-color: azure;
+    display: flex;
+    padding: 50px;
+    height: 100%;
+
+}
+
+.navbar>span {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    background: none;
+}
+
+.navbar>div {
+    width: 100%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.navbar>div>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0px auto;
+    padding: 10px;
+    width: 25%;
+    display: inline-block;
+    border: 3px solid black;
+}
